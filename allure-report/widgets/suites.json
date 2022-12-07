@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"11749b59ccaf636ce31410c334ded853","name":"Test_Case","statistic":{"failed":2,"broken":3,"skipped":0,"passed":6,"unknown":0,"total":11}},{"uid":"b5249f4cf714cb2a5260df77e54a2134","name":"Test_Case.test_Kabi_Food_Category","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}}]}

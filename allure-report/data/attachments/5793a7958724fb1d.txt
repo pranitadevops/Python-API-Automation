@@ -1,0 +1,2 @@
+{'id': 3, 'title': 'Session Meet', 'text': 'Kabi_Keto', 'image': 'string', 'video': 'string.mov4', 'category': 'CHRONIC_KIDNEY_DISEASE', 'imagesContent': [{'id': 15, 'image': 'string', 'imageContentType': 'INFORMATION', 'entityId': 3, 'createdDate': '2022-11-09T07:26:22.000Z'}]}
+['CHRONIC_KIDNEY_DISEASE']
