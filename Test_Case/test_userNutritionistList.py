@@ -26,7 +26,7 @@ class UserList:
         response = requests.get(baseUrl + endpoint, headers=headers, params=self.params)
         print(response.text)
         resp = json.loads(response.text)
-        if resp["totalElements"] >= 2:
+        if resp["totalElements"] >= 1:
             assert resp["pageNumber"] == 0
             assert "mar22".upper() in resp["list"][0]["fullName"]
 

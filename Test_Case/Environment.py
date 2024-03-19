@@ -1,10 +1,11 @@
 # Production BaseURL
-baseUrl = "https://ketoapp-stage-co.fresenius-kabi.com"
+baseUrl = "https://ketoapp-stage.fresenius-kabi.com"
+#baseUrl = "https://ketoapp-stage.fresenius-kabi.com/api/session/login/bo"
 email = "intl.projects.fresenius@dminc.com"
 password = "dmi-3321a"
 
 Auth = "Bearer "
-
+Search = ""
 
 # -s is used to print statement output on Terminal
 # -v It Display tetscase name with status -(Varbose)

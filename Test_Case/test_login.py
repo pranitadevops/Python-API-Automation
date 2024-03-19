@@ -1,21 +1,21 @@
 import json
-import pytest
-
 import jsonpath
 import requests
 
 # Staging BaseURL
-baseUrl = "https://ketoapp-stage-co.fresenius-kabi.com"
+baseUrl = "https://ketoapp-stage.fresenius-kabi.com/api/session/login/bo"
 email = "intl.projects.fresenius@dminc.com"
 password = "dmi-3321a"
-Auth = "Bearer "
+
+
+# Auth = "Bearer "
 
 
 # Testcase code must be written in Method.
 # Method Name must be started with test
 
 def test_login():
-    UserSignInEndPoint = "/api/session/login/bo"
+    # UserSignInEndPoint = "/api/session/login/bo"
     headers = {'Content-Type': 'application/json'}
 
     payload = {
@@ -23,7 +23,7 @@ def test_login():
         "username": email
     }
 
-    response = requests.post(baseUrl + UserSignInEndPoint, json.dumps(payload), headers=headers)
+    response = requests.post(baseUrl, json.dumps(payload), headers=headers)
     print(response.json())
 
     # Parse Format into json format

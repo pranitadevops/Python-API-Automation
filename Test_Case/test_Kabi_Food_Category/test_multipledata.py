@@ -34,20 +34,40 @@ def test_Multipledata():
         payload['title'] = cell_title.value
         payload['type'] = cell_type.value
 
-        # Write into file
-        # sh.cell(row=5, column=1, value='pytest')
-        # sh.cell(row=5, column=2, value='Framework')
-        # sh.cell(row=5, column=3, value='Kabi_colombia')
-        # sh.cell(row=5, column=4, value='THE_KIDNEYS')
-        # sh.cell(row=5, column=5, value='string')
-        # wb.save('Multidata.xlsx')
-        # print(str(payload))
-
         response = requests.post(baseUrl + UserEndPoint, json=payload, headers=headers)
-        # print( response.text)
+        print(response.text)
         print(payload['type'])
         if payload['type'] != 'CHRONIC_KIDNEY_DISEASE':
             print("Unexpected Title")
 
     # if response.status_code >= 400:
     #     raise RuntimeError("Failed : HTTP error code : " + str(response.status_code))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Write into file
+# sh.cell(row=5, column=1, value='pytest')
+# sh.cell(row=5, column=2, value='Framework')
+# sh.cell(row=5, column=3, value='Kabi_colombia')
+# sh.cell(row=5, column=4, value='THE_KIDNEYS')
+# sh.cell(row=5, column=5, value='string')
+# wb.save('Multidata.xlsx')
+# print(str(payload))

@@ -2,7 +2,7 @@ import json
 import jsonpath
 import requests
 import Test_Case.test_login
-from Test_Case.Environment import baseUrl, Auth
+from Test_Case.Environment import baseUrl, Auth, Search
 
 
 def test_uploadCsvMap():
@@ -15,5 +15,6 @@ def test_uploadCsvMap():
 
 
 def test_verifyRsp():
-    assert response.status_code == 200, "Status OK"
+    assert response.status_code == 270, "Status OK"
     assert response.text == 'Successfully', "It should be Successfully"
+
